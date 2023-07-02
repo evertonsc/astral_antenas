@@ -4,6 +4,9 @@
 
 Projeto realizado em uma disciplina extensionista proporcionada pela Universidade La Salle, a qual tinha o objetivo de criar algo, envolvendo tecnologia, com o intuito de auxiliar uma empresa em um problema. A loja Astral Antenas, situada no centro de Canoas - RS, que foi parceira do projeto, relatou a necessidade de um site para servir de portfólio dos principais produtos vendidos na loja e também para dar um destaque aos produtos que não eram vendidos frequentemente. 
 
+[🔗 Acesse o projeto aqui](https://astralantenas-production.up.railway.app/)
+
+
 ## Tecnologias 🧰
 
 Aqui estão as tecnologias utilizadas no projeto.
@@ -16,6 +19,10 @@ Aqui estão as tecnologias utilizadas no projeto.
 * Laravel
 * MySQL
 * Git
+
+
+## Hospedagem/Banco de dados
+* Railway
 
 
 ## Site 🌐
