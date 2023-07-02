@@ -1,0 +1,9 @@
+Telefone sem fio Digital Intelbras TS 3110
+
+Design elegante e funcional, características que definem facilmente e o TS 3110, o telefone da Intelbras perfeito para sua residência ou escritório, graças ao seu visor, é possível identificar quem está ligando, além de ter disponibilidade para salvar alguns contatos na agenda e adicionar toques diferentes para ficar mais fácil a identificação de cada contato que está ligando.
+
+
+UPDATE produtos SET Nome = 'Telefone sem fio Digital Intelbras - TS 3110", Preco = 270, Descricao = "Conforto, design elegante e funcional, características que definem facilmente e de forma rápida o TS 3110, o telefone da Intelbras perfeito para sua residência ou escritório, graças ao seu visor, é possível identificar quem está ligando, além de ter disponibilidade para salvar alguns contatos na agenda e adicionar toques diferentes para ficar mais fácil a identificação de cada contato que está ligando.', Imagens = 'cores-telefones-juntos.jpeg||telefone-com-caixa.jpeg||telefone-preto.jpeg||telefone-branco.jpeg||telefone-vermelho.jpeg' WHERE Id = 23;
+
+
+Preço: R$ 270,00

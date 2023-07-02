@@ -1,0 +1,545 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+// Estilos para o menu
+.logo_menu {
+    //margin-bottom: 2.5em;
+}
+
+
+.navbar {
+    background: #D8D8D8;
+}
+
+
+.ul-menu {
+    list-style: none;
+}
+
+
+.a-menu {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+
+.a-menu:hover, .menu-ativo {
+    color: #CE2222;
+}
+
+
+
+.linha_menu {
+    border: 0;
+    border-top: 1px solid #CE2222;
+    width: 100%;
+    margin-top: 0;
+    margin: 0;
+}
+
+
+
+
+/* Estilos para página incial */
+.titulo {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 2em auto;
+    width: fit-content;
+}
+
+
+.quem_somos_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.primeiro_texto, .segundo_texto {
+    text-align: center;
+}
+
+
+.foto_fachada_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.foto_fachada, .foto_interior {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 450px;
+    margin: 1.5em 0;
+}
+
+
+
+/* Estilos para página de produtos */
+.cards_container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    gap: 50px;
+    width: 80%; 
+    margin: 0 auto 3em auto;
+}
+
+
+.card {
+    background: #E6E8EC;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-height: 440px;
+    border: 2px solid #000;
+}
+
+
+.card_conteudo {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 85%; 
+    text-align: center; 
+    margin: 1em auto 0 auto;
+}
+
+
+.card_nome_produto {
+    color: #000; 
+    text-align: center;
+    min-height: 40px;
+}
+
+
+.card_preco_produto {
+    color: #CE2222; 
+    margin: 1em 0 2em 0;
+}
+
+
+.card_botao {
+    text-decoration: none; 
+    color: #000; 
+    background: #FFF; 
+    border: 2px solid #000; 
+    border-radius: 8px; 
+    padding: 3px; 
+    margin: 0 auto 0 auto; 
+    width: 40%; 
+    text-align: center;
+}
+
+
+.card_botao:hover {
+    background: #CE2222;
+    color: #FFF;
+}
+
+
+.controles_paginacao {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: fit-content;
+    margin: 1em auto 3em auto;
+}
+
+
+
+.botao_paginacao {
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 0.7em;
+    color: #000;
+}
+
+
+.botao_paginacao:hover {
+    color: #FFF;
+    background: #CE2222;
+}
+
+
+.botao_ativo {
+    background: #CE2222;
+    color: white;
+}
+
+
+
+
+
+
+/* Estilos para página de produto específico */
+.seta_voltar_pagina {
+    margin: 2em 0 0 2em;
+}
+
+
+.produto_container, .imagem_geral_container {
+    width: 80%;
+    margin: 2.5em auto 1em auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.imagem_principal {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 350px;
+    border: 2px solid black;
+}
+
+
+.informacoes_produto_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.nome_produto {
+    max-width: 300px;
+    margin-top: 1em;
+}
+
+
+.nome_produto, .descricao_produto {
+    text-align: center;
+}
+
+
+.preco_produto {
+    color: red;
+    margin: 1em auto;
+}
+
+.imagem_secundaria_container {
+    display: flex;
+    justify-content: center;
+    //flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+
+.imagem_secundaria {
+    min-width: 50px;
+    border: 2px solid #000;
+}
+
+
+.imagem_secundaria:hover {
+    cursor: pointer;
+}
+
+.imagem_ativa {
+    border: 2px solid #CE2222;
+}
+
+
+
+
+
+
+
+/* Estilos para página de contato */
+.imagem_de_teste {
+    width: 100%;
+    max-width: 1050px;
+    height: 100%;
+    max-height: 600px;
+}
+
+
+.canais_atendimento {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 70%; 
+    margin: 0 auto;
+}
+
+
+.whats {
+    padding-left: 10px;
+}
+
+
+.texto_canal_atendimento {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+
+.svg_atendimento {
+    margin-right: 8px;
+}
+
+
+.botao_atendimento, .email_container {
+    padding: 5px;
+    max-height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.botao_atendimento:hover .texto_canal_atendimento {
+    text-decoration: underline;
+}
+
+
+
+.endereco_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+
+.endereco_texto {
+    padding-bottom: 1em;
+    font-size: 1.2em;
+}
+
+
+.mapa_endereco {
+    width: 1260px;
+    height: 700px;
+    border: 0;
+}
+
+
+.horarios_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 1em auto 2em auto;
+    font-size: 1.2em;
+}
+
+
+.horarios_titulo {
+    padding-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    .botao_pagina {
+        display: none;
+    }
+
+    /* .imagem_secundaria_container {
+        flex-wrap: wrap;
+    } */
+}
+
+
+@media screen and (max-width: 650px){
+
+    .logo_menu_container {
+        display: flex;
+        justify-content: center;
+        margin-right: 2em;
+    }
+
+    .a_logo_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        height: 100px;
+    }
+
+    .ul-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .ul-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .li-menu {
+        padding: 0 1em;
+    }
+
+    .texto_canal_atendimento {
+        font-size: 1em;
+    }
+
+}
+
+
+@media screen and (min-width: 650px) {
+
+    .navbar {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        padding: 0 2em;
+    }
+
+    .logo_menu_container {
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 35%;
+        margin-left: 1em;
+    }
+
+    .ul-container {
+        display: inline-flex;
+        justify-content: flex-end;
+        width: 300px;
+    }
+
+    .ul-menu {
+        display: inline-flex;
+        justify-content: space-around;
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .descricao_produto {
+        max-width: 250px;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .produto_container {
+        flex-wrap: nowrap;
+        max-width: 900px;
+        margin: 7em auto 0 auto;
+    }
+    
+    .imagem_geral_container {
+        width: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .informacoes_produto_container {
+        justify-content: flex-start;
+    }
+
+    .nome_produto {
+        margin-top: 0;
+        max-width: 500px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+    .informacoes_produto_container {
+        margin-left: 2em;
+    }
+    
+    .nome_produto, .preco_produto {
+        font-size: 1.5em;
+    }
+}
+
+
+
+@media screen and (min-width: 1100px) {
+    .nome_produto, .preco_produto {
+        font-size: 2em;
+    }
+
+}
+
+
+@media screen and (min-width: 1450px) {
+    .cards_container {
+        width: 65%;
+        max-width: 1100px;
+    }
+}
+
+
+@media screen and (max-width: 1600px){
+    .canais_atendimento {
+        flex-direction: column;
+    }
+
+    .botao_atendimento, .email_container {
+        margin-bottom: 1em;
+    }
+
+    .endereco_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .mapa_endereco_container {
+        width: 100%;
+        overflow: hidden;
+        padding-top: 56.25%; /* Relação de aspecto de 16:9 para o iframe do mapa */
+        position: relative;
+      }
+    
+      .mapa_endereco {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+}
