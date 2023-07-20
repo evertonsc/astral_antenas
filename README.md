@@ -19,10 +19,6 @@ Aqui estão as tecnologias utilizadas no projeto.
 * Git
 
 
-## Hospedagem/Banco de dados
-* Railway
-
-
 ## Site 🌐
 
 ### 1 - Menu 📌
