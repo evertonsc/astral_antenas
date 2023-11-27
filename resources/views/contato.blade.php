@@ -8,7 +8,7 @@
         <h1 class="titulo">Entre em contato conosco</h1>
 
         <div style="display: flex; justify-content: center; align-items: center; margin: 0 auto; width: 80%;">
-            <img src="./img/loja/foto-fachada-loja.jpeg" alt="" class="imagem_de_teste">
+            <img src="./img/loja/foto-fachada-loja.jpeg" alt="" class="imagem_principal_contato">
         </div>
 
         
